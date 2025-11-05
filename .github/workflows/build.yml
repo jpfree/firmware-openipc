@@ -24,7 +24,7 @@ jobs:
           # - {"platform": "t31", "release": "fpv"}
 
            GOKE [7205]
-          - {"platform": "gk7205v300", "release": "ultimate"}
+            - {"platform": "gk7205v300", "release": "ultimate"}
 
           # Sigmastar [I6E]
           #- {"platform": "ssc30kq", "release": "fpv"}
