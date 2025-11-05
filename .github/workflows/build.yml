@@ -23,9 +23,8 @@ jobs:
           # - {"platform": "t31", "release": "lite"}
           # - {"platform": "t31", "release": "fpv"}
 
-          Goke [GK7205V200]
+          #Goke [GK7205V200]
           
-          - {"platform": "gk7605v100", "release": "lite"}
 
           - {"platform": "gk7205v300", "release": "ultimate"}
           
