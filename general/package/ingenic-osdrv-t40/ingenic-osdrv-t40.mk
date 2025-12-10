@@ -14,7 +14,6 @@ define INGENIC_OSDRV_T40_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 755 -d $(TARGET_DIR)/etc/sensor
 	$(INSTALL) -m 644 -t $(TARGET_DIR)/etc/sensor $(INGENIC_OSDRV_T40_PKGDIR)/files/sensor/*.yaml
 
-	$(INSTALL) -m 644 -t $(TARGET_DIR)/etc/sensor $(INGENIC_OSDRV_T40_PKGDIR)/files/sensor/params/mis2008-t40.bin
 
 
 	$(INSTALL) -m 755 -d $(TARGET_DIR)/usr/bin
