@@ -16,8 +16,7 @@ jobs:
     steps:
       - name: Prepare
         run: |
-            link=
-https://github.com/jpfree/firmware-openipc/releases/tag/latest
+            link=https://github.com/jpfree/firmware-openipc/releases/tag/latest
             create() {
               uboot=u-boot-$1-nor.bin
               firmware=openipc.$2-nor-$3.tgz
