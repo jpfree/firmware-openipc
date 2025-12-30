@@ -21,7 +21,11 @@ jobs:
         platform:
 
           # Ingenic [T40]
-          - t40_lite
+          #- t40_lite
+
+          # Sigmastar [I6B]
+
+          - ssc337_ultimate
           
     steps:
       - name: Checkout source
